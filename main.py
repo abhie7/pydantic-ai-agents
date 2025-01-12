@@ -134,11 +134,8 @@ async def get():
 #     system_prompt="Be as fun as possible."
 # )
 
-# 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
-
 agent = Agent(
     model="groq:llama-3.2-3b-preview",
-    # api_key="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",
     system_prompt="Be as fun as possible."
 )
 
